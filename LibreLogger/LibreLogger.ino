@@ -73,8 +73,8 @@ void setup() {
   //lcd start
   lcd.begin(16, 2);
   lcd.print("LibreLogger");
-  lcd.cursor(0, 1);
-  lcd.print("V 1.0 2/23/2017");
+  lcd.setCursor(0, 1);
+  lcd.print("V 1.0 3/21/2017");
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
   /*
